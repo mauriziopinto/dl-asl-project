@@ -51,8 +51,8 @@ Run all cells top-to-bottom. Training the custom CNN takes ~10–15 minutes on a
 
 | Model | Test Accuracy |
 |-------|--------------|
-| Custom CNN (baseline) | 99.67% |
-| ResNet18 (transfer learning) | 98.28% |
+| Custom CNN (baseline) | 99.75% |
+| ResNet18 (transfer learning) | 98.16% |
 
 The custom CNN outperformed ResNet18 with a frozen backbone, likely because the ASL alphabet task differs substantially from ImageNet — the pretrained features were less transferable than learning domain-specific features from scratch on a large dataset.
 
