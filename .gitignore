@@ -4,6 +4,6 @@ __pycache__/
 *.pyc
 .DS_Store
 *.egg-info/
-*.txt
-!requirements.txt
+dataset/
 Deep_Learning_Systems_Analysis_Report.md
+Deep_Learning_Systems_Analysis_Report.docx
